@@ -1,0 +1,31 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<filter-name>RestrictionFilter</filter-name>
+  	<filter-class>com.ensas.filters.RestrictionFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>RestrictionFilter</filter-name>
+  	<url-pattern>/MainController</url-pattern>
+  </filter-mapping>
+  <servlet>
+  	<servlet-name>MainController</servlet-name>
+  	<servlet-class>com.ensas.controllers.MainController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MainController</servlet-name>
+  	<url-pattern>/MainController</url-pattern>
+  </servlet-mapping>
+  <error-page>
+  	<error-code>500</error-code>
+  	<location>/public/erreur500.jsp</location>
+  </error-page>
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/public/erreur404.jsp</location>
+  </error-page>
+</web-app>
