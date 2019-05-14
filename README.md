@@ -13,3 +13,18 @@ Vue Succes: si le payement est passé avec succes.
 
 vue Agent: Affichage des abonnés avec leurs informations en ce qui concerne le payement.
 
+les paquetages du projet:
+
+Package Configs: connection vers la base donneés (Singleton)
+
+Package Controllers: Les controleurs du projet (Les servlets)
+
+Package Dao (DATA Acces Object): L'acces a la base de donnes en utilisant JPA et Hibernate
+
+Package Filters: La restriction de l'acces vers l'application
+
+Package Models: Les models (entités)
+
+Package services: Code métier
+
+
