@@ -15,11 +15,11 @@ vue Agent: Affichage des abonnés avec leurs informations en ce qui concerne le 
 
 les paquetages du projet:
 
-Package Configs: connection vers la base donneés (Singleton)
+Package Configs: connection vers la base données (Singleton)
 
 Package Controllers: Les controleurs du projet (Les servlets)
 
-Package Dao (DATA Acces Object): L'acces a la base de donnes en utilisant JPA et Hibernate
+Package Dao (DATA Acces Object): L'acces a la base de données en utilisant JPA et Hibernate
 
 Package Filters: La restriction de l'acces vers l'application
 
